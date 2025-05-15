@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Raihaan Humris - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="logo" title="Logo RH" aria-label="Logo RH">RH</div>
+      <ul>
+        <li><a href="#about" class="nav-link active">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="profile-photo">
+      <img src="download (1).jpg" alt="Photo of Muhammad Raihaan Humris" />
+    </div>
+    <div class="header-text">
+      <h1>Muhammad Raihaan Humris</h1>
+      <p>Pelajar MAKN Ende, Usia 16 Tahun</p>
+    </div>
+  </header>
+  <main>
+    <section id="about" class="fade-in">
+      <h2>About Me</h2>
+      <p>
+        Saya seorang pelajar yang passionate di bidang programming, tertarik untuk mengembangkan aplikasi web modern dan efisien. Saya selalu bersemangat belajar teknologi baru untuk menciptakan solusi perangkat lunak yang berdampak.
+      </p>
+    </section>
+
+    <section id="education" class="fade-in delay-1">
+      <h2>Education</h2>
+      <ul>
+        <li>Mts At Taqwa Beru (2021 - 2024)</li>
+        <li>MAKN Ende (2024 - Sekarang)</li>
+      </ul>
+    </section>
+
+    <section id="skills" class="fade-in delay-2">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill-container">
+          <div class="skill-label">JavaScript</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill-container">
+          <div class="skill-label">Python</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%;"></div>
+          </div>
+        </div>
+        <div class="skill-container">
+          <div class="skill-label">React</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="skill-container">
+          <div class="skill-label">Node.js</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill-container">
+          <div class="skill-label">CSS3</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="skill-container">
+          <div class="skill-label">Git</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill-container">
+          <div class="skill-label">Docker</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 65%;"></div>
+          </div>
+        </div>
+        <div class="skill-container">
+          <div class="skill-label">SQL</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="fade-in delay-3">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <div class="project-image" aria-label="JavaScript Project">JS</div>
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>A sleek, modern portfolio website showcasing my skills, projects, and contact information using HTML, CSS, and JavaScript.</p>
+            <div class="project-links">
+              <a href="Bakso.html/Bakso.html" target="_blank" rel="noopener noreferrer">View Code</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" aria-label="Python Project">PY</div>
+          <div class="project-content">
+            <h3>Data Analysis Tool</h3>
+            <p>Python-based data analysis and visualization tool to help users gain insights from large datasets quickly.</p>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image" aria-label="React Project">RE</div>
+          <div class="project-content">
+            <h3>React Todo App</h3>
+            <p>A responsive todo application built with React, offering state management and persistent local storage.</p>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener noreferrer">View Code</a>
+              <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-in delay-4">
+      <h2>Contact Me</h2>
+      <form id="contact-form" onsubmit="handleSubmit(event)">
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Muhammad Raihaan Humris. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
